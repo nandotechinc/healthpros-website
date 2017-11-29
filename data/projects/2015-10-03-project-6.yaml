@@ -1,10 +1,10 @@
 modalID: 6
-title: Github Viewer
-subtitle: AngularJS App allowing search of GitHub profiles and star breakdown
+title: Topical Pain Solutions
+subtitle: Topical pain solutions are prescribed by your primary care physician to work at the source of the pain, these medications do not interfere with any additional medication you are taking.  
 date: 2015-10-03
-img: githubviewer-full.png
-preview: githubviewer-preview.png
-client: Open Source (MIT License)
+img: pain.jpg
+preview: pain.jpg
+client: Topical Medication
 clientLink: "#"
-category: Custom Software Design
-description: This was a super quick one day project where we leveraged the GitHub public API with the front end and HTTP client written in AngularJS 1.5.  The page will allow you to type in any GitHub username and retrieve their public information.
+category: Pain Relief
+description: "These medications are to be applied to a localized area and does not need to travel through the digestive system and bloodstream before reaching the area where you are in pain before they start to work. For this reason, topical pain medications can start to work quickly to give you the relief you need. With topical pain relief, there are few, if any side effects in comparison to oral medication. In addition, it is also safer to reapply more often in comparison to traditional oral medication."

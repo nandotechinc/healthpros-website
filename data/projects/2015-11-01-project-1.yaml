@@ -1,10 +1,10 @@
 modalID: 1
-title: MoveCaptain Media Storage
+title: Diabetic Supplies
 subtitle: API Endpoint allowing associated mobile & web-based apps to upload media for storage & viewing in order to provide moving estimates..
 date: 2015-11-01
-img: movecap-elmah-lg.png
-preview: movecap-elmah-360.png
-client: MoveCaptain Systems
-clientLink: "http://www.movecaptain.com"
-category: Custom Software Design
-description: This project was phase 1 of a full and complete re-write of an existing system that was designed in Ruby. Phase 1 consisted of creating the Media Upload Service that is utilized in the project throughout. The project mainly consists of a single POST endpoint that will accept any sort of media post and save it to Azure SQL & Azure Blob Storage, respectively.
+img: meter.png
+preview: meter.png
+client: Diabetes
+clientLink: "#"
+category: Diabetes
+description: Since the early 1980s, when people with diabetes were introduced to blood glucose monitoring, they have been using their fingers to obtain blood samples. The fingers became the accepted source for blood for nearly two decades. As increasing numbers of people with diabetes started to manage their diabetes intensively, doing upwards of four to six blood checks per day, a need arose to be able to use alternate sites for blood samples. This need gave rise to manufacturers developing monitors that were accurate and approved for alternate sites.

@@ -1,10 +1,10 @@
 modalID: 4
-title: Nt-X VoIP Portal
-subtitle: VoIP Portal built using ASP.NET MVC & SQL Server for tracking of all internal customers.
+title: Pain Relieving Braces
+subtitle: Braces for your foot, ankle, knee, back, wrist & elbow.
 date: 2016-09-21
-img: ntx-portal-full.png
-preview: ntx-voip-preview2.png
-client: NandoTech, Inc.
-clientLink: "http://www.nt-x.com"
-category: ASP.NET MVC Custom Web App
-description: The Nt-X VoIP Portal is built fully using ASP.NET 4.6 and SQL Server 2012. While originally intended to become our primary customer portal for all things VoIP and SIP related, delays and changes in our processes have resulted in some shifting priorities. The primary function of the portal is communicating with the Twilio API to buy/release/add Phone Numbers as well as getting them added to our internal SQL Server, and finally pointing the numbers at the current correct system for customer shown.
+img: braces.jpg
+preview: braces.jpg
+client: Pain Relieving Braces
+clientLink: "#"
+category: Pain Relief
+description: We provide pain relieving braces custom fit for each individual patient's foot, ankle, knee, back, wrist or elbow (or any combination thereof). The knee is the most common type of problem that we see. People use braces in conjunction with post-injury therapy. They can also be helpful for active individuals who want to protect this joint from injuries.  Back braces are also very commonly prescribed; as bending over to tie your shoes can result in a back injury if you’re not careful. These types of injuries can require a brace to help the body heal. Other back injuries that require a brace include chronic pain, strains, and posture issues such as scoliosis. Braces can also be helpful for people who need lumbar support or suffer from back pain due to pregnancy.

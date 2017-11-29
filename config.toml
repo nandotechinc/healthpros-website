@@ -1,9 +1,9 @@
 # Site settings
-baseurl = "https://nandotech.com/"
+baseurl = "https://172.12.0.87/"
 languageCode = "en-us"
-title = "NandoTech, Inc."
+title = "HealthPros Mail Order Pharmacy & Supplies"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-59045667-1"
+# googleAnalytics = "UA-59045667-1"
 
 [params]
 
@@ -30,7 +30,7 @@ googleAnalytics = "UA-59045667-1"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "info@nandotech.com"
+	email = "info@healthpros.info"
 
     # Link custom assets relative to /static
     custom_css = []
@@ -105,9 +105,9 @@ googleAnalytics = "UA-59045667-1"
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
-		# For more informtion take a look at the README.
-		title = "Portfolio"
-		subtitle = "Just a few projects we've worked on or put together showing off our divere skillset."
+
+		subtitle = "Topical pain solutions, diabetic supplies, skin & scar treatments as well as medical accesories of all types."		# For more informtion take a look at the README.
+		title = "Products"
 
 		[params.portfolio.modal]
             client = "Client"
@@ -118,7 +118,7 @@ googleAnalytics = "UA-59045667-1"
 
     # About section
 	[params.about]
-        enable = true
+        enable = false
 		title = "About"
 		subtitle = "Software Developers and Telephony Solution Experts"
 		endpoint = "Be part<br>of our<br>story!"
