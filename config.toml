@@ -1,0 +1,263 @@
+# Site settings
+baseurl = "https://nandotech.com/"
+languageCode = "en-us"
+title = "NandoTech, Inc."
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-59045667-1"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "NandoTech Inc - Software Developers and Consultants"
+	description = "NandoTech offers fully customized .NET-based software solutions.  Specializing in C#, we have extensive experience providing enterprise solutions to businesses.  This encompasses any and all business needs. CRMs, reporting, automation, & much more. Hosting and support packages also available."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "info@nandotech.com"
+
+    # Link custom assets relative to /static
+    custom_css = []
+    custom_js  = []
+
+
+	# Navigation
+	[params.navigation]
+		brand = "HealthPros"
+		services = "Services"
+		portfolio = "Products"
+		about = "About"
+		team = "Team"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #   url = "https://blog.nandotech.com"
+    #    name = "Blog"
+    #    weight = 10
+
+    # postpended links
+	#[[menu.postpend]]
+	#	url = "http://support.nandotech.com/"
+	#	name = "Support"
+	#	weight = 10
+   # [[menu.postpend]]
+   #     url = "https://blog.nandotech.com"
+   #     name = "Blog"
+   #     weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "HealthPros Medical Supplies"
+		subtitle = "Specializing in mail order medication, supplies and more."
+		buttonText = "Tell me more"
+
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "Services"
+		subtitle = "Health Pros works with a network of pharmacies to ensure you are getting the highest quality of care that meets your specific needs and preferences."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-desktop"
+                title = "Mail Order Pharmacy"
+                description = "Save money and time with mail order. Maximum convenience and peace of mind with lower out-of-pocket costs."
+
+            [[params.services.row.list]]
+                icon = "fa-mobile"
+                title = "Automatic Refills"
+                description = "Depending on your benefit plan, you could save money by having your doctor prescribe a 3-month supply of medication by mail. You’ll have fewer refills and may have lower out-of-pocket costs."
+
+			[[params.services.row.list]]
+    			icon = "fa-phone-square"
+    			title = "Excellent Customer Service"
+    			description = "Enjoy personal attention and convenience from our fully trained staff."
+
+	# Portfolio section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Portfolio"
+		subtitle = "Just a few projects we've worked on or put together showing off our divere skillset."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+	[params.about]
+        enable = true
+		title = "About"
+		subtitle = "Software Developers and Telephony Solution Experts"
+		endpoint = "Be part<br>of our<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			date = "April 2013"
+			title = "Our Humble Beginnings"
+			description = "Our business and dream is born. Bootstrapping with our own capital, we saw it was time to quit our day jobs.  The demand and opportunity were there and growing.  We need execution."
+
+		[[params.about.events]]
+			img = "DataCenter.jpg"
+			date = "July 2015"
+			title = "The Data Center"
+			description = "After long deliberation, we shifted from a purely consulting business into offering services (phone, dialer & custom software) to our customers all over the country."
+
+		[[params.about.events]]
+			img = "FirstOfficeSquare.jpg"
+			date = "August 2015"
+			title = "Our First Office"
+			description = "Nothing crazy or amazing--but it was ours. As a small business that has never taken outside funding, moving into our own location was a big step and one we did not take lightly.  With room for 3, there was a little room to spare."
+
+		[[params.about.events]]
+			img = "NewOffice.jpg"
+			date = "August 2016"
+			title = "Phase Two Expansion"
+			description = "As our brand and business expands, so do we. Increasing demands upon our infrastructure force us to deploy some upgrades to our data center.  Right about the same time, NandoTech relocates to a newer, bigger office."
+
+
+	# Team section
+	[params.team]
+        enable = false
+		title = "Our amazing team"
+		subtitle = "Developers and Problem Solvers"
+		description = "The brains behind the operation."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "arron.jpg"
+			name = "Arron Mayers"
+			position = "VP // Technical Development"
+			social = [
+				["fa-twitter", "https://twitter.com/arronmayers"],
+				["fa-linkedin", "https://www.linkedin.com/in/arron-mayers-257a894a"]
+			]
+
+		[[params.team.members]]
+			img = "nando.jpg"
+			name = "Fernando Rodriguez"
+			position = "President & CEO // Software Development"
+			social = [
+				["fa-twitter", "https://twitter.com/nandotechinc"],
+				["fa-facebook", "https://www.facebook.com/frodriguezu"],
+				["fa-linkedin", "https://www.linkedin.com/in/fernando-rodriguez-6082914a"]
+			]
+
+		[[params.team.members]]
+			img = "sergio.png"
+			name = "Sergio Caceres"
+			position = "Associate Git Engineer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+	# Client section
+    [params.clients_list]
+        enable = false
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "precision.jpg"
+    		link = "https://www.facebook.com/PrecisionHealthcareCommunications/"
+
+    	 [[params.clients]]
+    		logo = "american-van-lines.png"
+    		link = "http://www.americanvanlines.com/"
+
+    	[[params.clients]]
+    		logo = "cytranic.png"
+    		link = "http://www.cytranic.com/"
+
+		[[params.clients]]
+			logo = "taom_logo.png"
+			link = "http://theartofmedia.com/"
+
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact us"
+		subtitle  = "We're more than happy to see how we can help! Get in touch!"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+        enable = true
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/nand0tech/"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "https://www.facebook.com/nandotechinc/"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://www.linkedin.com/company/3884621"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
